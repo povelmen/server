@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
-	"Hello world"
+	p File.read("hello.txt")
 end
 
 get "/sinatra" do
